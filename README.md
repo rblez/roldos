@@ -6,7 +6,7 @@ Sitio web oficial de Casa Roldós. Catálogo digital interactivo con sistema de 
 
 ## Sitio Web
 
-[roldos.tiendly.lat](https://rblez.github.io/roldos)
+[https://rblez.github.io/roldos](https://rblez.github.io/roldos)
 
 ## Descripción
 
