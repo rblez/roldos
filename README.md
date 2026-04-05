@@ -6,7 +6,7 @@ Sitio web oficial de Casa Roldós. Catálogo digital interactivo con sistema de 
 
 ## Sitio Web
 
-[https://rblez.github.io/roldos](https://rblez.github.io/roldos)
+[rblez.github.io/roldos](https://rblez.github.io/roldos)
 
 ## Descripción
 
@@ -63,7 +63,7 @@ Abrir `index.html` en el navegador.
 
 ## Despliegue en GitHub Pages
 
-El sitio está configurado para desplegarse en `roldos.tiendly.lat` vía GitHub Pages con dominio personalizado.
+El sitio está configurado para desplegarse en `rblez.github.io/roldos/` vía GitHub Pages con dominio personalizado.
 
 ## Contacto
 
