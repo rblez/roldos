@@ -1534,13 +1534,30 @@ footer {
     width: 100vw;
   }
 
-  /* Cards más anchas en móvil pequeño */
+  /* Cards que quepan completas en móvil */
   .product-card {
-    width: 85vw;
-    min-width: 280px;
+    width: calc(100vw - 48px);
+    min-width: auto;
+    max-width: 340px;
+  }
+
+  .product-card:first-child {
+    margin-left: 0;
+  }
+
+  .product-slider {
+    gap: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    scroll-padding-left: 16px;
+  }
+
+  .category-section {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .card-image {
-    height: 200px;
+    height: 180px;
   }
 }
