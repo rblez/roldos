@@ -1,3 +1,15 @@
+// ── Lazy Loading ──
+const imageObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const img = entry.target;
+      img.style.backgroundImage = `url('${img.dataset.src}')`;
+      img.classList.add('loaded');
+      imageObserver.unobserve(img);
+    }
+  });
+}, { rootMargin: '50px', threshold: 0.1 });
+
 // ── Products ──
 const PRODUCTS = [
   { id: 1, name: "Hamburguesa sencilla — cerdo", desc: "Hamburguesa de cerdo clásica.", price: 750, category: "hamburguesas", img: "images/classic-pork-burger-hamburguesa-sencilla.png" },
@@ -90,7 +102,7 @@ function renderProducts(list) {
       const cleanName = p.name.replace(/ — /g, ' · ').replace(/-/g, ' ');
       return `
             <div class="product-card" onclick="openProductModal(PRODUCTS.find(x => x.id === ${p.id}))">
-              <div class="card-image" style="background-image: url('${p.img}')"></div>
+              <div class="card-image" data-src="${p.img}"></div>
               <div class="card-content">
                 <div class="card-name">${cleanName}</div>
                 <div class="card-desc">${p.desc}</div>
@@ -110,11 +122,20 @@ function renderProducts(list) {
   });
 
   document.getElementById('no-results').style.display = list.length === 0 ? 'block' : 'none';
+
+  // Start observing lazy loaded images
+  setTimeout(() => {
+    document.querySelectorAll('.card-image[data-src]').forEach(img => {
+      imageObserver.observe(img);
+    });
+  }, 100);
 }
 
 function scrollSlider(cat, dir) {
   const slider = document.getElementById(`slider-${cat}`);
-  slider.scrollBy({ left: dir * 300, behavior: 'smooth' });
+  if (slider) {
+    slider.scrollBy({ left: dir * 300, behavior: 'smooth' });
+  }
 }
 
 function filterProducts(btn, cat) {

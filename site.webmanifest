@@ -1,0 +1,29 @@
+{
+    "name": "Roldos - Cafetería Santiago de Cuba",
+    "short_name": "Roldos",
+    "description": "Las mejores hamburguesas artesanales de Santiago de Cuba",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#c0392b",
+    "background_color": "#1a1a1a",
+    "display": "standalone",
+    "start_url": "https://roldos.vercel.app/",
+    "scope": "https://roldos.vercel.app/",
+    "lang": "es",
+    "categories": [
+        "food",
+        "restaurant",
+        "cafe"
+    ],
+    "orientation": "portrait-primary"
+}
