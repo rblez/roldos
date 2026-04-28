@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(npx --yes vercel --version)",
-      "Bash(npx --yes vercel --prod --yes --name roldos --scope rblez --target production)"
-    ]
-  }
-}
