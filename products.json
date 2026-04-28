@@ -1,2 +1,354 @@
-[]
-
+[
+  {
+    "id": 1,
+    "name": "Hamburguesa sencilla — cerdo",
+    "desc": "Hamburguesa de cerdo clásica.",
+    "price": 750,
+    "category": "hamburguesas",
+    "img": "img/classic-pork-burger-hamburguesa-sencilla.png"
+  },
+  {
+    "id": 2,
+    "name": "Hamburguesa sencilla — pollo",
+    "desc": "Hamburguesa de pollo clásica.",
+    "price": 900,
+    "category": "hamburguesas",
+    "img": "img/classic-chicken-burger-hamburguesa-sencilla.png"
+  },
+  {
+    "id": 3,
+    "name": "Hamburguesa jamón viking — cerdo",
+    "desc": "Con jamón viking.",
+    "price": 1100,
+    "category": "hamburguesas",
+    "img": "img/pork-burger-with-viking-ham-hamburguesa-jam.png"
+  },
+  {
+    "id": 4,
+    "name": "Hamburguesa jamón viking — pollo",
+    "desc": "Con jamón viking.",
+    "price": 1250,
+    "category": "hamburguesas",
+    "img": "img/chicken-burger-with-viking-ham-hamburguesa.png"
+  },
+  {
+    "id": 5,
+    "name": "Hamburguesa jamón pierna — cerdo",
+    "desc": "Con jamón pierna.",
+    "price": 1250,
+    "category": "hamburguesas",
+    "img": "img/pork-burger-with-leg-ham-hamburguesa-jam-n.png"
+  },
+  {
+    "id": 6,
+    "name": "Hamburguesa jamón pierna — pollo",
+    "desc": "Con jamón pierna.",
+    "price": 1450,
+    "category": "hamburguesas",
+    "img": "img/chicken-burger-with-leg-ham-hamburguesa-jam.png"
+  },
+  {
+    "id": 7,
+    "name": "Hamburguesa queso gouda — cerdo",
+    "desc": "Con queso gouda.",
+    "price": 1350,
+    "category": "hamburguesas",
+    "img": "img/pork-burger-with-melted-gouda-cheese.png"
+  },
+  {
+    "id": 8,
+    "name": "Hamburguesa queso gouda — pollo",
+    "desc": "Con queso gouda.",
+    "price": 1550,
+    "category": "hamburguesas",
+    "img": "img/chicken-burger-with-melted-gouda-cheese.png"
+  },
+  {
+    "id": 9,
+    "name": "Big Americana — cerdo",
+    "desc": "Hamburguesa, huevo, queso gouda y vegetales.",
+    "price": 1800,
+    "category": "hamburguesas",
+    "img": "img/big-americana-pork-burger-with-egg-and.png"
+  },
+  {
+    "id": 10,
+    "name": "Big Americana — pollo",
+    "desc": "Hamburguesa, huevo, queso gouda y vegetales.",
+    "price": 2000,
+    "category": "hamburguesas",
+    "img": "img/big-americana-chicken-burger-with-egg-and.png"
+  },
+  {
+    "id": 11,
+    "name": "Big Plus — cerdo",
+    "desc": "2 hamburguesas, jamón viking, queso gouda y vegetales.",
+    "price": 2200,
+    "category": "hamburguesas",
+    "img": "img/big-plus-pork-burger-with-two-patties-ham.png"
+  },
+  {
+    "id": 12,
+    "name": "Big Plus — pollo",
+    "desc": "2 hamburguesas, jamón viking, queso gouda y vegetales.",
+    "price": 2500,
+    "category": "hamburguesas",
+    "img": "img/big-plus-chicken-burger-with-two-patties-ham.png"
+  },
+  {
+    "id": 13,
+    "name": "Sandwich tradicional",
+    "desc": "Jamón viking, queso gouda y vegetales.",
+    "price": 1200,
+    "category": "sandwiches",
+    "img": "img/traditional-sandwich-with-ham-and-cheese.png"
+  },
+  {
+    "id": 14,
+    "name": "Sandwich a lo cubano",
+    "desc": "Jamón viking, jamón pierna, bistec cerdo y vegetales.",
+    "price": 1450,
+    "category": "sandwiches",
+    "img": "img/sandwich-a-lo-cubano-with-ham-pork-steak-and.png"
+  },
+  {
+    "id": 15,
+    "name": "Sandwich de Jamón Pierna",
+    "desc": "120 g de jamón pierna y vegetales.",
+    "price": 0,
+    "category": "sandwiches",
+    "img": "img/ham-sandwich-sandwich-de-jam-n-pierna-on-a.png"
+  },
+  {
+    "id": 16,
+    "name": "Sandwich de Bistec de cerdo",
+    "desc": "200 g de bistec de cerdo, cebolla y vegetales.",
+    "price": 0,
+    "category": "sandwiches",
+    "img": "img/pork-steak-sandwich-with-onions-and.png"
+  },
+  {
+    "id": 17,
+    "name": "Pizza napolitana — queso blanco",
+    "desc": "Pizza napolitana clásica con queso blanco.",
+    "price": 1350,
+    "category": "pizzas",
+    "img": "img/classic-neapolitan-pizza-with-white-cheese.png"
+  },
+  {
+    "id": 18,
+    "name": "Pizza napolitana — queso gouda",
+    "desc": "Pizza napolitana clásica con queso gouda.",
+    "price": 1500,
+    "category": "pizzas",
+    "img": "img/classic-neapolitan-pizza-with-gouda-cheese.png"
+  },
+  {
+    "id": 19,
+    "name": "Pizza con jamón viking — queso blanco",
+    "desc": "Pizza con jamón viking y queso blanco.",
+    "price": 1750,
+    "category": "pizzas",
+    "img": "img/pizza-with-viking-ham-and-white-cheese-pizza.png"
+  },
+  {
+    "id": 20,
+    "name": "Pizza con jamón viking — queso gouda",
+    "desc": "Pizza con jamón viking y queso gouda.",
+    "price": 2000,
+    "category": "pizzas",
+    "img": "img/pizza-with-viking-ham-and-gouda-cheese-pizza.png"
+  },
+  {
+    "id": 21,
+    "name": "Pizza con jamón pierna — queso blanco",
+    "desc": "Pizza con jamón pierna y queso blanco.",
+    "price": 1900,
+    "category": "pizzas",
+    "img": "img/pizza-with-leg-ham-and-white-cheese-pizza.png"
+  },
+  {
+    "id": 22,
+    "name": "Pizza con jamón pierna — queso gouda",
+    "desc": "Pizza con jamón pierna y queso gouda.",
+    "price": 2150,
+    "category": "pizzas",
+    "img": "img/pizza-with-leg-ham-and-gouda-cheese-pizza.png"
+  },
+  {
+    "id": 23,
+    "name": "Pizza con aceitunas — queso blanco",
+    "desc": "Pizza con aceitunas y queso blanco.",
+    "price": 1750,
+    "category": "pizzas",
+    "img": "img/pizza-with-olives-and-white-cheese-pizza-con.png"
+  },
+  {
+    "id": 24,
+    "name": "Pizza con aceitunas — queso gouda",
+    "desc": "Pizza con aceitunas y queso gouda.",
+    "price": 1950,
+    "category": "pizzas",
+    "img": "img/pizza-with-olives-and-gouda-cheese-pizza-con.png"
+  },
+  {
+    "id": 25,
+    "name": "Pizza Roldós — queso blanco",
+    "desc": "Bolognesa estilo Roldós, aceitunas y cebolla. Queso blanco.",
+    "price": 2100,
+    "category": "pizzas",
+    "img": "img/pizza-rold-s-with-bolognese-sauce-olives-1.png"
+  },
+  {
+    "id": 26,
+    "name": "Pizza Roldós — queso gouda",
+    "desc": "Bolognesa estilo Roldós, aceitunas y cebolla. Queso gouda.",
+    "price": 2300,
+    "category": "pizzas",
+    "img": "img/pizza-rold-s-with-bolognese-sauce-olives-2.png"
+  },
+  {
+    "id": 27,
+    "name": "Espagueti napolitano — queso blanco",
+    "desc": "Espagueti napolitano con queso blanco.",
+    "price": 1250,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-spaghetti-with-neapolitan-sauce-and-white.png"
+  },
+  {
+    "id": 28,
+    "name": "Espagueti napolitano — queso gouda",
+    "desc": "Espagueti napolitano con queso gouda.",
+    "price": 1450,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-spaghetti-with-neapolitan-sauce-and-gouda.png"
+  },
+  {
+    "id": 29,
+    "name": "Espagueti con jamón viking — queso blanco",
+    "desc": "Espagueti con jamón viking y queso blanco.",
+    "price": 1750,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-spaghetti-with-viking-ham-and-white-cheese.png"
+  },
+  {
+    "id": 30,
+    "name": "Espagueti con jamón viking — queso gouda",
+    "desc": "Espagueti con jamón viking y queso gouda.",
+    "price": 1900,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-spaghetti-with-viking-ham-and-gouda-cheese.png"
+  },
+  {
+    "id": 31,
+    "name": "Espagueti con jamón pierna — queso blanco",
+    "desc": "Espagueti con jamón pierna y queso blanco.",
+    "price": 1900,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-spaghetti-with-leg-ham-and-white-cheese.png"
+  },
+  {
+    "id": 32,
+    "name": "Espagueti con jamón pierna — queso gouda",
+    "desc": "Espagueti con jamón pierna y queso gouda.",
+    "price": 2150,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-spaghetti-with-leg-ham-and-gouda-cheese.png"
+  },
+  {
+    "id": 33,
+    "name": "Espagueti con aceitunas — queso blanco",
+    "desc": "Espagueti con aceitunas y queso blanco.",
+    "price": 1700,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-spaghetti-with-olives-and-white-cheese.png"
+  },
+  {
+    "id": 34,
+    "name": "Espagueti con aceitunas — queso gouda",
+    "desc": "Espagueti con aceitunas y queso gouda.",
+    "price": 1900,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-spaghetti-with-olives-and-gouda-cheese.png"
+  },
+  {
+    "id": 35,
+    "name": "Espagueti Roldós — queso blanco",
+    "desc": "Bolognesa estilo Roldós, aceituna y cebolla. Queso blanco.",
+    "price": 2050,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-espagueti-rold-s-with-bolognese-sauce-olives-1.png"
+  },
+  {
+    "id": 36,
+    "name": "Espagueti Roldós — queso gouda",
+    "desc": "Bolognesa estilo Roldós, aceituna y cebolla. Queso gouda.",
+    "price": 2250,
+    "category": "pastas",
+    "img": "img/professional-food-photography-of-espagueti-rold-s-with-bolognese-sauce-olives-2.png"
+  },
+  {
+    "id": 37,
+    "name": "Agregado — Queso blanco",
+    "desc": "Porción de queso blanco para agregar a tu pedido.",
+    "price": 300,
+    "category": "agregados",
+    "img": "img/portion-of-white-cheese-and-gouda-cheese.png"
+  },
+  {
+    "id": 38,
+    "name": "Agregado — Queso gouda",
+    "desc": "Porción de queso gouda para agregar a tu pedido.",
+    "price": 650,
+    "category": "agregados",
+    "img": "img/portion-of-white-cheese-and-gouda-cheese.png"
+  },
+  {
+    "id": 39,
+    "name": "Agregado — Jamón viking",
+    "desc": "Porción de jamón viking para agregar a tu pedido.",
+    "price": 450,
+    "category": "agregados",
+    "img": "img/pizza-with-viking-ham-and-white-cheese-pizza.png"
+  },
+  {
+    "id": 40,
+    "name": "Agregado — Jamón pierna",
+    "desc": "Porción de jamón pierna para agregar a tu pedido.",
+    "price": 600,
+    "category": "agregados",
+    "img": "img/pizza-with-leg-ham-and-white-cheese-pizza.png"
+  },
+  {
+    "id": 41,
+    "name": "Agregado — Huevo",
+    "desc": "Huevo para agregar a tu pedido.",
+    "price": 400,
+    "category": "agregados",
+    "img": "img/big-americana-chicken-burger-with-egg-and.png"
+  },
+  {
+    "id": 42,
+    "name": "Ensalada fría 160g",
+    "desc": "Ensalada fría, porción de 160 gramos.",
+    "price": 400,
+    "category": "otras",
+    "img": "img/cold-pasta-salad-ensalada-fr-a-on-a-clean.png"
+  },
+  {
+    "id": 43,
+    "name": "Ensalada fría 1 lb",
+    "desc": "Ensalada fría, porción de 1 libra.",
+    "price": 1250,
+    "category": "otras",
+    "img": "img/cold-pasta-salad-ensalada-fr-a-on-a-clean.png"
+  },
+  {
+    "id": 44,
+    "name": "Flan",
+    "desc": "Flan casero.",
+    "price": 550,
+    "category": "otras",
+    "img": "img/big-americana-chicken-burger-with-egg-and.png"
+  }
+]
